@@ -12,30 +12,37 @@ let textArea = document.querySelector("#text-area");
 
 b.addEventListener("click", function () {
   textArea.classList.toggle("font-bold");
+  b.classList.toggle("text-sky-500");
 });
 
 i.addEventListener("click", function () {
   textArea.classList.toggle("italic");
+  i.classList.toggle("text-sky-500");
 });
 
 u.addEventListener("click", function () {
   textArea.classList.toggle("underline");
+  u.classList.toggle("text-sky-500");
 });
 
 textLeft.addEventListener("click", function () {
   textArea.classList.toggle("text-left");
+  textLeft.classList.toggle("text-sky-500");
 });
 
 textRight.addEventListener("click", function () {
   textArea.classList.toggle("text-right");
+  textRight.classList.toggle("text-sky-500");
 });
 
 textCenter.addEventListener("click", function () {
   textArea.classList.toggle("text-center");
+  textCenter.classList.toggle("text-sky-500");
 });
 
 textJustify.addEventListener("click", function () {
   textArea.classList.toggle("text-justify");
+  textJustify.classList.toggle("text-sky-500");
 });
 
 number.addEventListener("click", function () {
@@ -45,6 +52,7 @@ number.addEventListener("click", function () {
 
 aA.addEventListener("click", function () {
   textArea.classList.toggle("uppercase");
+  aA.classList.toggle("text-sky-500");
 });
 
 color.addEventListener("change", function () {
