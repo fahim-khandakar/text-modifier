@@ -45,7 +45,7 @@ textJustify.addEventListener("click", function () {
   textJustify.classList.toggle("text-sky-500");
 });
 
-number.addEventListener("click", function () {
+number.addEventListener("change", function () {
   let fontSize = number.value;
   textArea.style.fontSize = fontSize + "px";
 });
